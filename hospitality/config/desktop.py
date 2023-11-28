@@ -5,7 +5,7 @@ from frappe import _
 def get_data():
 	return [
 		{
-			"module_name": "hosp",
+			"module_name": "Hospitality",
 			"color": "grey",
 			"icon": "octicon-organization",
 			"type": "module",

@@ -3,7 +3,7 @@ from frappe import _
 
 def get_data():
 
-	return [
+	config =  [
 		{
 			"label": _("Hotels"),
 			"icon": "icon-star",
@@ -106,3 +106,4 @@ def get_data():
 
         },
     ]
+	return config
